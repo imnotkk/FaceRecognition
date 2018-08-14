@@ -4,7 +4,6 @@ from imutils import face_utils
 from imutils.face_utils import FaceAligner
 import face_recognition
 import numpy as np
-import argparse
 import imutils
 import dlib
 import pickle
@@ -41,14 +40,16 @@ def shape_to_np(shape, dtype="int"):
 # if you want to pass arguments at the time of running code
 # follow below code and format for running code
 
+
 """
-#ap.add_argument("-e", "--encodings", required=True,
-#	help="path to serialized db of facial encodings")
-#ap.add_argument("-i", "--image", required=True,
-#	help="path to input image")
-#ap.add_argument("-d", "--detection-method", type=str, default="cnn",
-#	help="face detection model to use: either `hog` or `cnn`")
-#args = vars(ap.parse_args())
+
+# ap.add_argument("-e", "--encodings", required=True,
+# 	help="path to serialized db of facial encodings")
+# ap.add_argument("-i", "--image", required=True,
+# 	help="path to input image")
+# ap.add_argument("-d", "--detection-method", type=str, default="cnn",
+# 	help="face detection model to use: either `hog` or `cnn`")
+# args = vars(ap.parse_args())
 
 python recognize_faces_image.py --encodings encodings.pickle --image examples/example_01.png
 

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3185420d-aa73-468b-b72d-e9b15e10865c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FaceRecognition.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceRecognizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceRecognizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encodings/encode_faces.py" beforeDir="false" afterPath="$PROJECT_DIR$/encodings/encode_faces.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,10 +16,25 @@
       <file leaf-file-name="FaceRecognizer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FaceRecognizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+            <state relative-caret-position="71">
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
               <folding>
-                <element signature="e#41#71#0" expanded="true" />
+                <element signature="e#266#539#0" />
+                <element signature="e#253#310#0" />
+                <element signature="e#571#880#0" />
+                <element signature="e#673#724#0" />
+                <element signature="e#882#907#0" />
+                <element signature="e#1018#1465#1" />
+                <element signature="e#2336#3316#0" />
+                <element signature="e#2336#2398#0" />
+                <element signature="e#2498#2556#0" />
+                <element signature="e#3654#3722#0" />
+                <element signature="e#4092#4949#0" />
+                <element signature="e#4321#4894#0" />
+                <element signature="e#4321#4381#0" />
+                <element signature="e#4629#4703#0" />
+                <element signature="e#4713#4776#0" />
+                <element signature="e#5049#5307#0" />
               </folding>
             </state>
           </provider>
@@ -34,8 +43,8 @@
       <file leaf-file-name="encode_faces.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/encodings/encode_faces.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="870">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#140#165#0" expanded="true" />
               </folding>
@@ -51,8 +60,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FaceRecognizer.py" />
         <option value="$PROJECT_DIR$/encodings/encode_faces.py" />
+        <option value="$PROJECT_DIR$/FaceRecognizer.py" />
       </list>
     </option>
   </component>
@@ -81,11 +90,6 @@
               <item name="FaceRecognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="FaceRecognition" type="462c0819:PsiDirectoryNode" />
               <item name="encodings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FaceRecognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FaceRecognition" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,14 +138,14 @@
     <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -159,18 +163,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FaceRecognizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+        <state relative-caret-position="71">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding>
-            <element signature="e#41#71#0" expanded="true" />
+            <element signature="e#266#539#0" />
+            <element signature="e#253#310#0" />
+            <element signature="e#571#880#0" />
+            <element signature="e#673#724#0" />
+            <element signature="e#882#907#0" />
+            <element signature="e#1018#1465#1" />
+            <element signature="e#2336#3316#0" />
+            <element signature="e#2336#2398#0" />
+            <element signature="e#2498#2556#0" />
+            <element signature="e#3654#3722#0" />
+            <element signature="e#4092#4949#0" />
+            <element signature="e#4321#4894#0" />
+            <element signature="e#4321#4381#0" />
+            <element signature="e#4629#4703#0" />
+            <element signature="e#4713#4776#0" />
+            <element signature="e#5049#5307#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/encodings/encode_faces.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="870">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#140#165#0" expanded="true" />
           </folding>
