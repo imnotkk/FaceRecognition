@@ -9,6 +9,8 @@ import imutils
 import dlib
 import pickle
 import cv2
+import uuid
+
 
 def rect_to_bb(rect):
     # we will take the bounding box predicted by dlib library
@@ -20,7 +22,8 @@ def rect_to_bb(rect):
     w = rect.right() - x
     h = rect.bottom() - y
 
-    return (x, y, w, h)
+    return x, y, w, h
+
 
 def shape_to_np(shape, dtype="int"):
     # initialize (x, y) coordinates to zero
@@ -54,11 +57,10 @@ python recognize_faces_image.py --encodings encodings.pickle --image examples/ex
 # if you want to use predefined path than define the path in a variable
 
 args = {
-	"shape_predictor": "complete_path/shape_predictor_68_face_landmarks.dat",
-	"image": "complete_path/input_image.jpg",
-        "encodings": "complete_path/encodings.pickle",
-        "detection_method": "cnn"
-        
+    "shape_predictor": "complete_path/shape_predictor_68_face_landmarks.dat",
+    "image": "complete_path/input_image.jpg",
+    "encodings": "complete_path/encodings.pickle",
+    "detection_method": "cnn"
 }
 
 # initialize dlib's face detector and facial landmark predictor
@@ -89,7 +91,6 @@ for (i, rect) in enumerate(rects):
     faceAligned = face.align(image, gray, rect)
     cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-    import uuid
     f = str(uuid.uuid4())
     cv2.imwrite("foo/" + f + ".png", faceAligned)
 
@@ -119,7 +120,7 @@ rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 # detect the (x, y) coordinates of the bounding box corresponding to
 # each face inthe input image and compute facial embeddings for each face
 print("[INFO] recognizing faces...")
-boxes = face_recognition.face_locations(rgb, model = args["detection_method"])
+boxes = face_recognition.face_locations(rgb, model=args["detection_method"])
 encodings = face_recognition.face_encodings(rgb, boxes)
 
 # initialize the list of names of detected faces
